@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Diet | Opossum Appreciation Society</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Diet &amp; Behavior</h1></header>
+  <nav>
+    <a href="index.html" title="Home">Home</a>
+    <a href="facts.html" title="Opossum facts">Facts</a>
+    <a href="diet.html" title="Diet and behavior">Diet &amp; Behavior</a>
+    <a href="myths.html" title="Myths">Myths</a>
+  </nav>
+<main>
+<section>
+  <h2>What Opossums Eat</h2>
+  <p>Opossums are omnivores and scavengers. They eat:</p>
+  <ul>
+    <li>Insects and snails</li>
+    <li>Fruits and berries</li>
+    <li>Small rodents</li>
+    <li>Eggs and pet food</li>
+    <li>Venomous snakes</li>
+    <li>Carrion (tidying up roadsides)</li>
+  </ul>
+  <p>Their diet makes them excellent natural pest control.</p>
+</section>
+<section>
+  <h2>Oppossum Behavior</h2>
+  <d1>
+    <dt>Nocturnal Lifestyle</dt><dd>Opossums are active at night. They usually forage for food using their keen sense of smell.</dd>
+    <dt>Defense Mechanisms</dt><dd>When seriously threatened, an opossum may go limp, drool, and lie still. This is an <em>involuntary</em> catatonic state, not an act. It is most commonly known as &ldquo;playing dead&rdquo; or &ldquo;playing possum&rdquo;.</dd>
+    <dt>Intelligence</dt><dd>Many studies show that opossums excel at remembering past food locations. They also have been shown to be better than domestic animals at navigating mazes.</dd>
+  </d1>
+  <h2>Found One? What To Do</h2>
+  <ol>
+    <li><em>Stay Calm</em> and keep pets indoors.</li>
+    <li>Give the animal space to leave on it&apos;s own.</li>
+    <li>Call a local wildlife rescue if it is injured.</li>
+  </ol>
+</section>
+<section>
+  <h3>Report a Sighting</h3>
+  <!--
+    Unique ATTRIBUTES:
+    #1 required - The browser will not submit the form until the field is filled in.
+       I put this on the name field and the photo upload below, so it makes sure every report has a name and a photo.
+    #2 multiple - Lets the user pick more than one value/file.
+       I put this on the photo upload (input type="file"), which allows users to attach several photos at once.
+    #3 accept - This limits which file types the file picker offers.
+       I put this on the photo upload (accept="image/*") so it only allows image files.
+    Since this is a demo form I used action="#" which means nothing is actually sent anywhere.
+  -->
+  <form action="#">
+    <p><label>Your name: <input type="text" name="reporter" required></label></p>
+    <p><label>Photos of the opossum: <input type="file" name="photos" accept="image/*" multiple required></label></p>
+    <p><button type="submit">Send report</button></p>
+  </form>
+</section>
+</main>
+<footer><p>&copy; 2026 Opossum Appreciation Society</p></footer>
+</body>
+</html>
